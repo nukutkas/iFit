@@ -38,7 +38,7 @@ struct ExerciseView: View {
     let index: Int
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(exerciseNames[index])
     }
 }
 
