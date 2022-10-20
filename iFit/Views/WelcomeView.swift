@@ -37,25 +37,34 @@ struct WelcomeView: View {
         ZStack {
             VStack {
                 HStack(alignment: .bottom) {
-                VStack(alignment: .leading) {
-                  Text("Get fit")
-                    .font(.largeTitle)
-                  Text("with high intensity interval training")
-                    .font(.headline)
-                }
-                  Image("step-up")
-//                      .resizable()
-//                      .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-//                      .frame(width: 240.0, height: 240.0)
-//                      .clipShape(Circle())
+                    VStack(alignment: .leading) {
+                        Text("Get fit")
+                            .font(.largeTitle)
+                        Text("with high intensity interval training")
+                            .font(.headline)
+                    }
+                    Image("step-up")
+                    //                      .resizable()
+                    //                      .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                    //                      .frame(width: 240.0, height: 240.0)
                         .resizedToFill(width: 240, height: 240)
-              }
+                        .clipShape(Circle())
+                }
+                Button(action: { }) {
+                    Text("Get Started")
+                    Image(systemName: "arrow.right.circle")
+                }
+                .font(.title2)
+                .padding()
+                .background(
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color.gray, lineWidth: 2))
             }
             VStack {
                 HeaderView(titleText: "Welcome")
                 Spacer()
                 Button("History") { }
-                  .padding(.bottom)
+                    .padding(.bottom)
             }
         }
     }
