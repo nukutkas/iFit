@@ -17,6 +17,7 @@
 		CD30C94725147AEF0049DB93 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD30C94325147AEF0049DB93 /* burpee.mp4 */; };
 		CD30C94825147AEF0049DB93 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD30C94425147AEF0049DB93 /* squat.mp4 */; };
 		CD30C94925147AEF0049DB93 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CD30C94525147AEF0049DB93 /* sun-salute.mp4 */; };
+		E59F2F1829013CA600AE0717 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59F2F1729013CA600AE0717 /* RatingView.swift */; };
 		E5CEDC4F28FD51D1009E1A4F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEDC4E28FD51D1009E1A4F /* WelcomeView.swift */; };
 		E5CEDC5128FD5226009E1A4F /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEDC5028FD5226009E1A4F /* ExerciseView.swift */; };
 		E5CEDC5428FD6E98009E1A4F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CEDC5328FD6E98009E1A4F /* HeaderView.swift */; };
@@ -35,6 +36,7 @@
 		CD30C94325147AEF0049DB93 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		CD30C94425147AEF0049DB93 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
 		CD30C94525147AEF0049DB93 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		E59F2F1729013CA600AE0717 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		E5CEDC4E28FD51D1009E1A4F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		E5CEDC5028FD5226009E1A4F /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		E5CEDC5328FD6E98009E1A4F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				E5CEDC4E28FD51D1009E1A4F /* WelcomeView.swift */,
 				E5CEDC5028FD5226009E1A4F /* ExerciseView.swift */,
 				E5CEDC5328FD6E98009E1A4F /* HeaderView.swift */,
+				E59F2F1729013CA600AE0717 /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				E5CEDC5128FD5226009E1A4F /* ExerciseView.swift in Sources */,
 				E5CEDC4F28FD51D1009E1A4F /* WelcomeView.swift in Sources */,
 				CD30C926251474DC0049DB93 /* ContentView.swift in Sources */,
+				E59F2F1829013CA600AE0717 /* RatingView.swift in Sources */,
 				CD30C93F25147A8C0049DB93 /* DateExtension.swift in Sources */,
 				CD30C924251474DC0049DB93 /* iFitApp.swift in Sources */,
 				CD30C94025147A8C0049DB93 /* ImageExtension.swift in Sources */,
